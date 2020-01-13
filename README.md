@@ -1,3 +1,4 @@
+![alt text](https://raw.githubusercontent.com/rr250/mpl-test/master/src/components/kl.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
