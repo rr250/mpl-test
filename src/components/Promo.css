@@ -1,6 +1,6 @@
 .promo {
-    margin: 0;
-    padding: 0;
+    margin: -20px;
+    padding: 10px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif;
@@ -9,11 +9,24 @@
     background: url(/img/promo.png) ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     position: relative;
+    border-radius: 20px;
   }
 
   .promo img{
       position: absolute;
       left: 55%;
   }
+
+  .promo h1{
+    font-size: 500%;
+    font-weight: bold;
+    margin-top: -1%;
+  }
+
+  .promo h3{
+    font-weight: bold;
+    margin-top: -1%;
+  }
+

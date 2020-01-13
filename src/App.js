@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from "./components/Header";
 import Promo from "./components/Promo";
 import Footer from "./components/Footer";
+import './App.css'
 
 class App extends Component {
   state={
@@ -12,8 +13,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header userName={this.state.userName}/>
-        <Promo cash={this.state.cash} referral={this.state.referral}/>
+        <div class="top">
+
+          <Header userName={this.state.userName}/>
+          <div class="row">
+            <div class="col s10 m6 offset-m4 offset-s1">
+              <Promo cash={this.state.cash} referral={this.state.referral}/>
+            </div>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+
+        </div>
         <Footer/>
       </div>
     );

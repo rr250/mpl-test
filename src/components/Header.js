@@ -1,11 +1,12 @@
 import React from 'react'
+import './Header.css'
 
 const Header = ({userName}) => {
     return (
-    <div class="row">
-      <div class="col m6 offset-m4">
-          <h1 class="white-text">{userName}</h1>   
-          <h3 class="white-text">invited you to play Mobile Premier League!</h3>   
+    <div class="row head">
+      <div class="col m12 s12">
+          <h5 class="white-text">{userName}</h5>   
+          <p class="white-text">invited you to play Mobile Premier League!</p>   
       </div>
     </div>
     )
