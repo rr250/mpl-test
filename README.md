@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/rr250/mpl-test/master/src/components/Result.PNG)
+![alt text](https://raw.githubusercontent.com/rr250/mpl-test/master/Result.PNG)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
