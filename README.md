@@ -1,4 +1,17 @@
-![alt text](https://raw.githubusercontent.com/rr250/mpl-test/master/Result.PNG)
+1.Download Repo
+
+2.Open Terminal
+
+3.npm install
+
+4.npm run start
+
+5.Page will start on web browser
+
+Result
+
+![alt text](https://raw.githubusercontent.com/rr250/mpl-test/master/Result1.PNG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
