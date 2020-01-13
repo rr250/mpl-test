@@ -1,3 +1,8 @@
+Download Repo
+Open Terminal
+npm install
+npm run start
+Page will start on web browser
 ![alt text](https://raw.githubusercontent.com/rr250/mpl-test/master/Result1.PNG)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
