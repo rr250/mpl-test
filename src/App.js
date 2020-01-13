@@ -17,7 +17,7 @@ class App extends Component {
 
           <Header userName={this.state.userName}/>
           <div class="row">
-            <div class="col s10 m6 offset-m4 offset-s1">
+            <div class="col s10 m6 offset-m3 offset-s1">
               <Promo cash={this.state.cash} referral={this.state.referral}/>
             </div>
           </div>
@@ -26,7 +26,11 @@ class App extends Component {
           <br/>
 
         </div>
-        <Footer/>
+          <div class="row">
+            <div class="col s12 m12">
+              <Footer/>
+            </div>
+          </div>
       </div>
     );
   }

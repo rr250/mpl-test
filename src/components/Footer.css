@@ -2,13 +2,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    padding: 2%;
+    max-width: 80%;
+    padding: 1%;
 }
 
 .foot{
     position: fixed;
     z-index: 999;
+    width: 100%;
+
 }
 
 .foot p{
